@@ -12,6 +12,7 @@ Requirements:
 
 Running the Script:
   - After fulfilling the requirements, run the script and click F1 on your keyboard. If you have completed the requirements correctly, the script will run successfully and delete Viber messages at a fast pace.
+  - To stop the script, simply press ESC. The script will automatically stop after 10000 iterations (which you can change to your preference).
 
 
 Support:
