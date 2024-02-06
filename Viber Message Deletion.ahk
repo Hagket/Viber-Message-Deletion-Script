@@ -1,8 +1,3 @@
-﻿F3::
-	MouseGetPos, xPos, yPos
-	PixelGetColor, color, %xPos%, %yPos%
-	MsgBox, The color of this pixel is %color%.
-
 F2::
 	MouseGetPos, xPos, yPos
 	MsgBox, The cursor is at position %xPos%, %yPos%.
