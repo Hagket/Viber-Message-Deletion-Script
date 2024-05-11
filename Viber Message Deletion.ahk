@@ -8,14 +8,16 @@ F1::
 	Loop, 10000
 	{
 		MouseClick, right
-		MouseMove, 10, 100, 0, R
+		sleep 100
+		MouseMove, 30, 100, 0, R
 		MouseClick, left
 		MouseMove, xStarting, yStarting, 0
 		PixelGetColor, color, %xStarting%, %yStarting%
 		if (color="0x000000") {
-			Send {Up}
+			
 		}
 		Send {Up}
+		sleep 200
 	}
 
 
